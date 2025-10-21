@@ -1,0 +1,16 @@
+{
+  "name": "chainWall",
+  "version": "0.1.0",
+  "main": "src/firewall.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js"
+  },
+  "dependencies": {
+    "@stacks/transactions": "^2.0.0",
+    "@stacks/network": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "sinon": "^15.0.0"
+  }
+}
